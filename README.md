@@ -1,4 +1,4 @@
-This creates separators between items.
+This creates separators between items with some configurations. It takes elements with display:none into consideration to ignore them and don't add extra separators.
 
 ### Making An Instance
 
@@ -81,26 +81,32 @@ The class or classes to add to the separator element.
 >height
 
 The height of the separator item.
+Only applicable for horizontal mode.
 
 >width
 
 The width of the separator item.
+Only applicable for vertical mode.
 
 >margin_top
 
 The margin-top of the separator item.
+Only applicable for vertical mode.
 
 >margin_bottom
 
 The margin-bottom of the separator item.
+Only applicable for vertical mode.
 
 >margin_left
 
 The margin-left of the separator item.
+Only applicable for horizontal mode.
 
 >margin_right
 
 The margin-right of the separator item.
+Only applicable for horizontal mode.
 
 >font_size
 
