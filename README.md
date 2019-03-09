@@ -115,3 +115,76 @@ The font-size of the separator item.
 >line_height
 
 The line-height of the separator item.
+
+### Defaults
+
+```
+if(options.mode === undefined)
+{
+    options.mode = "horizontal"
+}
+
+if(options.html === undefined)
+{
+    if(options.mode === "horizontal")
+    {
+        options.html =  `
+        <div class="separator-horizontal-container">
+            <div class="separator-horizontal-line"></div>
+        </div>`
+    }
+
+    else if(options.mode === "vertical")
+    {
+        options.html = `
+        <div class="separator-vertical-container">
+            <div class="separator-vertical-line"></div>
+        </div>`
+    }
+}
+
+if(options.class === undefined)
+{
+    options.class = ""
+}
+
+if(options.height === undefined)
+{
+    options.height = "1em"
+}
+
+if(options.width === undefined)
+{
+    options.width = "1em"
+}
+
+if(options.margin_top === undefined)
+{
+    options.margin_top = "1em"
+}
+
+if(options.margin_bottom === undefined)
+{
+    options.margin_bottom = "1em"
+}
+
+if(options.margin_left === undefined)
+{
+    options.margin_left = "1em"
+}
+
+if(options.margin_right === undefined)
+{
+    options.margin_right = "1em"
+}
+
+if(options.font_size === undefined)
+{
+    options.font_size = "1em"
+}
+
+if(options.line_height === undefined)
+{
+    options.line_height = "1em"
+}
+```
