@@ -1,0 +1,25 @@
+{
+    "name": "separator2",
+    "version": "1.0.0",
+    "description": "Utility to separate item vertically or horizontally.",
+    "repository": 
+    {
+        "type": "git",
+        "url": "git+https://github.com/madprops/Separator.git"
+    },
+    "main": "separator.js",
+    "files":
+    [
+        "separator.js"
+    ],
+    "keywords": 
+    [
+        "colors"
+    ],
+    "author": "Merkoba <merkoba@airmail.cc>",
+    "license": "MIT",
+    "bugs": 
+    {
+        "url": "https://github.com/madprops/Separator/issues"
+    }
+}

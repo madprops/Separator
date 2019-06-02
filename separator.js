@@ -13,7 +13,7 @@ Separator.factory = function(options={})
 
     if(options.html === undefined)
     {
-        if(options.mode === "horizontal")
+        if(options.mode === "horizontal"    )
         {
             options.html =  `
             <div class="separator-horizontal-container">
